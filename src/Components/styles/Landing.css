@@ -1,0 +1,138 @@
+.main-container{
+    /* border: red solid 1px; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFCF26;
+    overflow: hidden;
+}
+
+.top-wrapper{
+    height: 100%;
+    width: 100%;
+    /* border: red solid 1px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-wrapper{
+    height: 30%;
+    width: 100%;
+    /* border: red solid 1px; */
+}
+
+.photo-wrapper{
+    height: 70%;
+    width: 100%;
+    /* border: red solid 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 30px;
+}
+
+.starss{
+    height: 30%;
+    width: fit-content;
+    /* border: red solid 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.photoguy{
+    height: 100%;
+    width: fit-content;
+    /* border: red solid 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.star{
+    height: 80%;
+    width: fit-content;
+    /* border: red solid 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.bottom-wrapper{
+    height: 100%;
+    width: 100%;
+    /* border: purple solid 1px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button-wrapper{
+    width: 100%;
+    height: 70%;
+    /* border: hotpink solid 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bottom-header-wrapper{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+h1{
+    font-size: 200px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0px;
+}
+
+button{
+    display: inline-flex;
+    width: 385px;
+    height: auto;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #000;
+    background: var(--blue, #00F);
+    color: var(--white, #FFF);
+    /* Button */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+button:hover{
+    display: inline-flex;
+    width: 385px;
+    height: auto;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #000;
+    background: var(--blue, #00F);
+    color: var(--white, #FFF);
+    box-shadow: 10px 10px 0px 0px #FE621D;
+    /* Button */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
